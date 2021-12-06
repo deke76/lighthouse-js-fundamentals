@@ -11,7 +11,15 @@ if (temperature < 0 ) {
 } else if (temperature < 15 ) {
 	console.log( "Short sleeves won't cut it!" );
 } else {
-	console.log( "Short sleeves are fine." )
+	console.log( "Short sleeves are fine." );
 }
 
 console .log( "Now you're ready to go outside!" );
+
+if(temperature< -40 || temperature > 40) {
+	console.log("Maybe going outside isn't such a gread idea...");
+}
+
+if(!raining) {
+	console.log("Leave your umbrealla at home!");
+}
